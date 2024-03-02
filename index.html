@@ -16,13 +16,22 @@
     <h1>Assignment 5</h1>
     <h2 class="css-question">How to Apply CSS to HTML</h2>
     <p class="css-question">An external CSS file can be applied to an HTML file by including the following code within the head tags of the HTML file: 
-        <pre>
-            <code>
-            &lt;link rel="stylesheet" href="styles.css" /&gt;
-            </code>
-        </pre>
+        <pre>&lt;link rel="stylesheet" href="styles.css" /&gt;</pre>
         where the "href" attribute of the link tag has to be the path to the css file, relative to the html file.
     </p>
     <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
-    <p class="js-question"></p>
+    <p class="js-question">
+        An external JavaScript file can be applied by adding the following element to the HTML file:
+        <pre>&lt;script src="path/to/my/script.js"&gt;&lt;/script&gt;</pre>
+        where the "src" attrubute is the path to the JavaScript file, relative to the html file.
+        <br>
+        Alternatively, JavaScript can be written within the HTML file by writing JavaScript code within script tags. For example:
+        <pre>
+<code>
+&lt;script&gt;
+    console.log("This is JavaScript running from the HTML file!")
+&lt;/script&gt;
+</code>
+        </pre>
+    </p>
 </body>
